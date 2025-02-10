@@ -1,5 +1,5 @@
 # function here
-def generate_statement(statement, decoration, lines):
+def generate_statement(statement, decoration, lines=1):
     """will make the headings (3 lines), subhaedings(2 lines) and emphasised text / mini-heading (1 line).
        Only use emoji for single line statements"""
 
@@ -23,4 +23,4 @@ generate_statement("programing is fun", "=",3)
 print()
 generate_statement("programing is still fun" , "-",2)
 print()
-generate_statement("emoji in action","😎",1)
+generate_statement("emoji in action","😎",)
