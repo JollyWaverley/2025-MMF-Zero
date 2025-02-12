@@ -1,4 +1,4 @@
-# funtion here
+# function here
 def yes_no(question):
 
 
@@ -18,7 +18,7 @@ def yes_no(question):
 #loop for testing
 while True:
     want_instruction = yes_no("would you like to read the instructions? ")
-    print(f"you chose{want_instruction}\n")
+    print(f"you chose {want_instruction}\n")
 
 
 
