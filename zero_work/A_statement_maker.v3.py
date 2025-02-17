@@ -19,8 +19,8 @@ def generate_statement(statement, decoration, lines=1):
 
 
 # Main routine here
-generate_statement("programing is fun", "=",3)
+generate_statement("programing is fun", "=", 3)
 print()
-generate_statement("programing is still fun" , "-",2)
+generate_statement("programing is still fun", "-", 2)
 print()
-generate_statement("emoji in action","😎",)
+generate_statement("emoji in action", "😎",)
